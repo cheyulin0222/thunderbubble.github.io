@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+    <head>
+      <metadata charset="utf-8">
+      <title>shape - test</title>
+
+    </head>
+    <body>
+      <a href="index.html">go back</a>
+      <!--<svg width="200" height="250">
+        <rect x="10" y="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5" />
+        <rect x="60" y="10" rx="10" ry="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5" />
+
+        <circle cx="25" cy="75" r="20" stroke="red" fill="transparent" stroke-width="5" />
+        <ellipse cx="75" cy="75" rx="20" ry="5" stroke="red" fill="transparent" stroke-width="5" />
+
+        <line x1="10" x2="50" y1="110" y2="150" stroke="orange" stroke-width="5" />
+        <polyline points="25 75 75 75 " stroke="orange" fill="transparent" stroke-width="5" />
+        <polygon points="25 75 75 75 35 100" stroke="green" fill="transparent" stroke-width="5" />
+        <path d="M20, 230 Q40, 205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5" />
+      </svg>-->
+
+      <svg width="500" height="500" xmlns="http;//www.w3.org/2000/svg">
+
+        <path d="M 10 10 C 20 20, 40 20, 50 10" stroke="red" fill="transparent"/>
+        <path d="M 70 10 C 70 20, 110 20, 110 10" stroke="black" fill="transparent"/>
+        <path d="M 130 10 C120 20, 180 20, 170 10" stroke="blue" fill="transparent"/>
+      </svg>
+      <svg width="500" height="500" xmlns="http;//www.w3.org/2000/svg">
+
+        <rect x="10" y="5" width="400" height=150 fill="black"/>
+        <path d="M 10 80 c 10 100, 190 100, 200 0 s 190 -100, 200 0" stroke="red" fill="transparent"/>
+
+      </svg>
+
+      <svg width="500" height="500" xmlns="http;//www.w3.org/2000/svg">
+
+        <rect x="10" y="5" width="400" height=150 fill="black"/>
+        <path d="M 10 80 c 10 100, 190 100, 200 0 T 410 80" stroke="red" fill="transparent"/>
+
+      </svg>
+
+
+      <svg width="500" height="160"
+      xmlns="http://www.w3.org/2000/svg">
+
+        <path d="M 10 80 Q 95 10 180 80 T 360 80" stroke="black" fill="transparent"/>
+
+      </svg>
+
+      <svg width="500" height="160"
+      xmlns="http://www.w3.org/2000/svg">
+
+        <path d="M 10 80 Q 52.5 10, 95 80 T 180 80" stroke="black" fill="transparent"/>
+
+      </svg>
+
+      <svg width="320" height="320"
+      xmlns="http://www.w3.org/2000/svg">
+        <path d="M 10 315
+                 L 110 215
+                 A 30 50 0 0 0 162.55 162.45
+                 L 172.55 152.45
+                 A 30 50 -45 0 1 215.1 109.9
+                 L 315 10" stroke="black" fill="green" stroke-width="2" fill-opacity="0.5"/>
+      </svg>
+
+      <svg width="500" height="200" fill="black"
+           xmlns="http://www.w3.org/2000/svg">
+
+          <rect x="10" y="10" width="100" height="100"
+                stroke="black" fill="black" stroke="1"/>
+          <rect x="10" y="10" width="100" height="100"
+                stroke="blue" fill="purple" fill-opacity="0.5"
+                stroke="1"/>
+          <rect x="150" y="10" width="100" height="100"
+                stroke="blue" fill="purple" stroke="1"/>
+      </svg>
+
+      <svg width="500" height="200"
+           xmlns="http://www.w3.org/2000/svg">
+
+          <line x1="10" x2="100" y1="10" y2="10"
+                stroke="blue" stroke-width="10" stroke-linecap="butt"/>
+          <line x1="10" x2="100" y1="30" y2="30"
+                stroke="blue" stroke-width="10" stroke-linecap="square"/>
+          <line x1="10" x2="100" y1="50" y2="50"
+                stroke="blue" stroke-width="10" stroke-linecap="round"/>
+      </svg>
+
+      <svg width="1000" height="200"
+           xmlns="http://www.w3.org/2000/svg">
+
+           <polyline points="10 10 50 50 100 10" stroke="black" stroke-width="10" stroke-linejoin="miter" fill="transparent" stroke-linecap="butt" />
+           <polyline points="10 30 50 70 100 30" stroke="black" stroke-width="10" stroke-linejoin="round" fill="transparent" stroke-linecap="round" />
+           <polyline points="10 50 50 90 100 50" stroke="black" stroke-width="10" stroke-linejoin="bevel" fill="transparent" stroke-linecap="square" />
+      </svg>
+
+      <svg width="1000" height="200"
+      xmlns="http://www.w3.org/2000/svg">
+
+        <polygon points="10 10 50 50 100 10 Z" stroke="black" stroke-width="10" fill="none" stroke-dasharray="10,10,5" />
+        <path d="M 110 100 c 10 50 100 50 110 0 " stroke="red" fill="none" stroke-dasharray="5" />
+        <path d="M 220 100 c 10 -50 100 -50 110 0 " stroke="blue" fill="none" stroke-dasharray="5" />
+
+      </svg>
+
+      <svg width="120" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="Gradient1">
+            <stop class="stop1" offset="0%"/>
+            <stop class="stop2" offset="50%"/>
+            <stop class="stop3" offset="100%"/>
+          </linearGradient>
+          <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="red"/>
+            <stop offset="50%" stop-color="black" stop-opacity="0"/>
+            <stop offset="100%" stop-color="blue"/>
+          </linearGradient>
+          <style type="text/css"><![CDATA[
+            #rect1 { fill: url(#Gradient1); }
+            .stop1 { stop-color: red; }
+            .stop2 { stop-color: black; stop-opacity: 0; }
+            .stop3 { stop-color: blue; }
+            ]]></style>
+          </defs>
+
+          <rect id="rect1" x="10" y="10" rx="15" ry="15" width="100" height="100"/>
+          <rect x="10" y="120" rx="15" ry="15" width="100" height="100" fill="url(#Gradient2)"/>
+
+        </svg>
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+  </html>
